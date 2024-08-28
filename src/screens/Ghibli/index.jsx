@@ -5,13 +5,13 @@ import styles from './styles';
 import MyButton from '../../components/MyButton';
 import Title from '../../components/Title';
 
-export default function Home() {
+export default function Ghibli() {
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
-     <Title title={"Home"} />
+     <Title title={"Ghibli"} />
       <MyButton screen={"Totoro"} name={"Go to Totoro"} />
-      <MyButton screen={"Ghibli"} name={"Go to Ghibli"} />
+      <MyButton screen={"Home"} name={"Back to home"} />
     </View>
   )
 }
